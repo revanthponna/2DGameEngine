@@ -1,0 +1,1 @@
+{ "Player" : { "Vector": [0.0, 0.0], "Physics" : { "Mass" : 4.0 }, "Renderer" : { "Sprite" : "data\\GoodGuy.dds" } } }N

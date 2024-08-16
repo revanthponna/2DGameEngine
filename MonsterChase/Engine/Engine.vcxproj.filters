@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Includes">
+      <UniqueIdentifier>{f8572bfb-2928-4dfc-aa23-473cd1455097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{749580f7-7777-478c-b6a2-287c36951185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib">
+      <UniqueIdentifier>{1351927e-3a57-4c5e-b944-a0a4ca3d3ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\Buffers">
+      <UniqueIdentifier>{90c085a5-d872-44d3-bbeb-4492124e88da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\Console">
+      <UniqueIdentifier>{7fc473bc-616a-41e8-8fb4-802013c202f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\DDSLoader">
+      <UniqueIdentifier>{bbeab9c5-3ef5-4481-9579-720a167c5278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\Helpers">
+      <UniqueIdentifier>{d470f3d0-7f63-43f7-a4f0-df7fde59effd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\Sprite">
+      <UniqueIdentifier>{82732dc8-cf83-434d-90d7-cc5b685208da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\System">
+      <UniqueIdentifier>{2518e262-8c58-4d05-85e1-5f3cdbcb1ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLib\Texture">
+      <UniqueIdentifier>{5c1a919b-64c9-412f-8bf2-768043845584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timer">
+      <UniqueIdentifier>{d13324e3-8ecc-4db6-9186-ba7879575a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{e85c5b58-07fd-4c19-8932-dda70064e11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HashedString">
+      <UniqueIdentifier>{1270a5c6-a37b-410b-bc6e-5f7a9e8e4587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JobSystem">
+      <UniqueIdentifier>{1b612394-51d1-4566-b272-861f6a7a2cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Synchronization">
+      <UniqueIdentifier>{f08ae8e2-350c-4f58-8284-329b99774e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{da42d145-7b38-4c40-8feb-59b8c04f6d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{83cb4535-53a4-4b0e-a22e-0d83181d1ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matrix">
+      <UniqueIdentifier>{240171f0-e522-45b0-ab89-56449c35270b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{9efeec13-912e-44de-adec-6e851f472ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionSystem">
+      <UniqueIdentifier>{2ac1bba4-e671-44f1-9017-bce522da60b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String\String.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\StringUtils.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Buffers\CPUAccessableBuffer.cpp">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Buffers\DrawResourcesBuffer.cpp">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Buffers\ImmutableBuffer.cpp">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\DDSLoader\DDSTextureLoader.cpp">
+      <Filter>Source Files\GLib\DDSLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Texture\Texture.cpp">
+      <Filter>Source Files\GLib\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Device.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Initialization.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Input.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Render.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Service.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\System\Window.cpp">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Sprite\Sprite.cpp">
+      <Filter>Source Files\GLib\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\Timer.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString\HashedString.cpp">
+      <Filter>Source Files\HashedString</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobRunner.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobSystem.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\SharedJobQueue.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\AtomicOperations.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Events.Win.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Mutex.Win.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Semaphore.Win.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="GLib\Console\ConsolePrint.Win32.cpp">
+      <Filter>Source Files\GLib\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Helpers.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\Matrix.cpp">
+      <Filter>Source Files\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4.SSE.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Utilities.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem\CollisionSystem.cpp">
+      <Filter>Source Files\CollisionSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Engine.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector2D.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Basic.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\DynamicQueue.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\String.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\StringUtils.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\BasicTypes.h">
+      <Filter>Source Files\GLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\GLib.h">
+      <Filter>Source Files\GLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Buffers\CPUAccessableBuffer.h">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Buffers\DrawResourcesBuffer.h">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Buffers\DrawResourcesBuffer-inl.h">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Buffers\IGPUResourceBuffer.h">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Buffers\ImmutableBuffer.h">
+      <Filter>Source Files\GLib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\DDSLoader\DDSTextureLoader.h">
+      <Filter>Source Files\GLib\DDSLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Helpers\IReferenceCounted.h">
+      <Filter>Source Files\GLib\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Texture\Texture.h">
+      <Filter>Source Files\GLib\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Device.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Device-inl.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\DXHelpers.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\DXHelpers-inl.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Helpers.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Initialization.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Input.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\System\Window.h">
+      <Filter>Source Files\GLib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Sprite\Sprite.h">
+      <Filter>Source Files\GLib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Sprite\SpritePS.h">
+      <Filter>Source Files\GLib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Sprite\SpriteVS.h">
+      <Filter>Source Files\GLib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Timer.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Moveable.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GameObject.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Input.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Renderer.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GameObject.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector2D.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Moveable.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SmartPtr.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WeakPtr.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\AtomicOperations.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Events.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\HashedString.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\HashedString-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\JobRunner.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\JobSystem.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Mutex.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ScopeLock.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Semaphore.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SharedJobQueue.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SharedJobQueue-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SingleWriterMultipleReader.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SingleWriterMultipleReader.Win.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WaitableObject.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WaitableObject.Win.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WindowsHelpers.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib\Console\ConsolePrint.h">
+      <Filter>Source Files\GLib\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\json.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\json_fwd.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector4D.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector4D.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Matrix.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\JobStatus.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Matrix3.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Matrix3-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Matrix4.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Matrix4-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ProcessFile.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ProcessFileJob.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Quaternion.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Quaternion-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utilities.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utilities-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector3.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector3-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector4.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector4-inl.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\CollisionSystem.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
